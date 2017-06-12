@@ -65,6 +65,11 @@ html, body{
      width: 1170px;
    }
  }
+ @media (max-device-width: 480px) {
+   .container {
+     width: 400px;
+   }
+ }
  /* HEADER */
   header {
     color:#FFFFFF;
@@ -127,7 +132,7 @@ html, body{
    font-weight: 700;
    text-decoration: none;
    padding:10px 30px;
-   background: #2ECC71;
-   border: 2px solid #2ECC71;
-   box-shadow: 0px 2px 0px 0px #22894E;
+   background: #F6A623;
+   border: 2px solid #F6A623;
+   box-shadow: 0px 2px 0px 0px #D38F1E;
  }
