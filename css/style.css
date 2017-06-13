@@ -44,25 +44,6 @@ html, body{
   @media (min-width: 320px) {
     .container {
       width: 300px;
-  }
-    }
-    .one-half {
-      width:46%;
-    }
-      .one-third {
-        display: none;
-      }
-      .one-fourth {
-        display: none;
-      }
-      header.hero h1 {
-      font-size:21px;
-      font-weight: normal;
-      margin:45px 0 0;{
-      }
-      header .hero img {
-      display: none;
-      }
 }
    }
   @media (min-width: 768px) {
