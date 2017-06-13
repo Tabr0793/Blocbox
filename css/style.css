@@ -41,6 +41,30 @@ html, body{
     min-height: 1px;
     margin:0 2% 20px;
   }
+  @media (min-width: 320px) {
+    .container {
+      width: 300px;
+  }
+    }
+    .one-half {
+      width:46%;
+    }
+      .one-third {
+        display: none;
+      }
+      .one-fourth {
+        display: none;
+      }
+      header.hero h1 {
+      font-size:21px;
+      font-weight: normal;
+      margin:45px 0 0;{
+      }
+      header .hero img {
+      display: none;
+      }
+}
+   }
   @media (min-width: 768px) {
    .container {
      width: 750px;
@@ -63,11 +87,6 @@ html, body{
  @media (min-width: 1200px) {
    .container {
      width: 1170px;
-   }
- }
- @media (max-device-width: 480px) {
-   .container {
-     width: 400px;
    }
  }
  /* HEADER */
@@ -135,4 +154,104 @@ html, body{
    background: #F6A623;
    border: 2px solid #F6A623;
    box-shadow: 0px 2px 0px 0px #D38F1E;
+ }
+ /* BENEFITS */
+  .benefits {
+    text-align: center;
+    display:block;
+    position:relative;
+  }
+  .benefits ul {
+    margin: 0 auto;
+    padding:4em 0;
+  }
+  .benefits ul li {
+    list-style-type: none;
+    display: inline-block;
+  }
+  .benefits i {
+    color:#50E3C2;
+    font-size:60px;
+    margin:0;
+    vertical-align: middle;
+  }
+  .benefits h2 {
+    color:#50E3C2;
+  }
+  /* PRICING */
+   .pricing {
+     background: #5E686B url("../images/background.png") top center no-repeat;
+     background: url("../images/background.png") top center no-repeat, linear-gradient(206deg, #6F7B7F 0%, #5E686B 94%);
+     background-size:cover;
+     text-align: center;
+     padding:4em 0;
+   }
+   .pricing h2, .pricing p {
+     color:#FFFFFF;
+   }
+   .pricing ul {
+     margin:0 auto;
+     padding:2em 0;
+   }
+   .pricing ul li {
+     list-style-type: none;
+   }
+   .box {
+  padding:0 15px 15px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
+  min-height: 439px;
+  position: relative;
+  margin-top: 25px;
+}
+.box.middle {
+  min-height: 485px;
+  margin-top:0px;
+}
+.box h3 {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: #E2E2E2;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.40);
+  left:0;
+  right:0;
+  top:0;
+  text-align: center;
+  margin:0 -15px 40px;
+  padding:10px 0;
+}
+.box h4 {
+   font-size:50px;
+   font-weight: normal;
+   margin:40px 0 10px;
+   color:#50E3C2;
+ }
+ .box h4 span {
+   font-size:32px;
+   vertical-align: top;
+ }
+ .box h4 span.month {
+   font-family: "Roboto", Helvetica, Arial, sans-serif;
+   font-weight: 100;
+   color:#888888;
+   font-size:20px;
+   vertical-align: middle;
+ }
+ .box ul li {
+   font-size:18px;
+   margin-bottom:20px;
+   font-weight: 100;
+ }
+ .box .btn {
+   position:absolute;
+   bottom:20px;
+   left:20px;
+   right:20px;
+ }
+ .small {
+   font-size: 12px;
+   color: #FEFEFE;
+   line-height: 15px;
+   font-style:italic;
  }
