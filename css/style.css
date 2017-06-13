@@ -159,10 +159,13 @@ html, body{
   .benefits h2 {
     color:#50E3C2;
   }
+   .row-2 li {
+     padding-top: 20px
+   }
   /* PRICING */
    .pricing {
-     background: #5E686B url("Desktop/Blocbox/images/background.png") top center no-repeat;
-     background: url("Desktop/Blocbox/images/background.png") top center no-repeat, linear-gradient(206deg, #6F7B7F 0%, #5E686B 94%);
+     background: #5E686B url("../images/background.png") top center no-repeat;
+     background: url("../images/background.png") top center no-repeat, linear-gradient(206deg, #6F7B7F 0%, #5E686B 94%);
      background-size:cover;
      text-align: center;
      padding:4em 0;
@@ -242,7 +245,7 @@ html, body{
    text-align: center;
  }
  .testimonials h2 {
-   color:#3498DB;
+   color:#50E3C2;
  }
  .testimonials ul li {
    list-style-type: none;
@@ -251,7 +254,7 @@ html, body{
    color:#FFFFFF;
    text-align: left;
    font-style: italic;
-   background:#34495E;
+   background:#5C686B;
    position: relative;
    padding:30px;
    width:auto;
@@ -266,7 +269,7 @@ html, body{
    width: 0;
    position: absolute;
    pointer-events: none;
-   border-top-color: #34495E;
+   border-top-color: #5C686B;
    border-width: 10px;
    margin-left: -10px;
  }
