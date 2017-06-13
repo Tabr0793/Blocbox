@@ -45,16 +45,7 @@ html, body{
     .container {
       width: 300px;{
       }
-  header .hero h1 {
-        font-size:32px;
-}
-header .hero p {
-  font-size: 18px;{
-  }
-  header .hero img {
-      display: none;
-  }
-   }
+    }
   @media (min-width: 768px) {
    .container {
      width: 750px;
