@@ -43,7 +43,11 @@ html, body{
   }
   @media (min-width: 320px) {
     .container {
-      width: 300px;{
+      width: 300px;
+      }
+        dashboard-image {
+        height: 25%;
+        width: 25%;
       }
     }
   @media (min-width: 768px) {
@@ -287,6 +291,18 @@ html, body{
    text-align: left;
    font-size:13px;
    margin-top: 30px;
+ }
+ /* Extra Insentive */
+ .Sign-Up {
+   padding:4em 0;
+   text-align: center;
+ }
+ .Sign-Up {
+   padding:4em 0;
+   text-align: center;
+ }
+ .Sign-Up h2 {
+   color:#50E3C2;
  }
  /* FOOTER */
  footer {
