@@ -41,16 +41,12 @@ html, body{
     min-height: 1px;
     margin:0 2% 20px;
   }
-  @media (min-width: 320px) {
-    .container {
-      width: 300px;
-      }
-        dashboard-image {
-        height: 25%;
-        width: 25%;
+  @media {
+    .container hero img {
+      display: none;
       }
     }
-  @media (min-width: 768px) {
+  @media (min-width: {
    .container {
      width: 750px;
    }
@@ -294,15 +290,19 @@ html, body{
  }
  /* Extra Insentive */
  .Sign-Up {
-   padding:4em 0;
    text-align: center;
  }
  .Sign-Up {
-   padding:4em 0;
    text-align: center;
  }
  .Sign-Up h2 {
    color:#50E3C2;
+ }
+ .Sign-Up .btn{
+   position:absolute;
+   bottom:20px;
+   left:20px;
+   right:20px;
  }
  /* FOOTER */
  footer {
