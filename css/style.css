@@ -42,10 +42,6 @@ html, body{
     margin:0 2% 20px;
     }
   }
-  .container-hero img {
-    width: 50%;
-    height: 50%;
-  }
   @media (min-width: 768px) {
    .container {
      width: 750px;
@@ -122,9 +118,12 @@ html, body{
    margin:10px 0 40px;
  }
  header .hero img {
-   display: block;
-   margin:3em auto 0;
+   display: none
  }
+ @media (min-width: 992px) {
+   header .hero img {
+     display: block;
+     margin:3em auto 0;
 }
  /* BUTTONS */
  .btn {
@@ -293,17 +292,8 @@ html, body{
  .Sign-Up {
    text-align: center;
  }
- .Sign-Up {
-   text-align: center;
- }
  .Sign-Up h2 {
    color:#50E3C2;
- }
- .Sign-Up .btn{
-   position:absolute;
-   bottom:20px;
-   left:20px;
-   right:20px;
  }
  /* FOOTER */
  footer {
