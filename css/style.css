@@ -93,23 +93,35 @@ html, body{
   header nav {
     padding:1em 0;
   }
+  .header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  margin: 0 auto;
+  align-items: center;
+}
+  .one-half {
+    max-width: 34%;
+  }
   header nav ul {
-    display:none;
+    padding: 10px 15px;
+  display: flex;
+  float: right;
+  max-width: 1170px;
+  margin: 0 auto;
+  align-items: center;
   }
-  @media (min-width: 720px) {
+@media (min-width: 639px){}
   header nav ul {
-    display:inline;
-    text-align: right;
-    float:right;
-    margin:0 ;
-    }
+    padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  margin: 0 auto;
+  align-items: center;
   }
-  .fa-bars:before {
-    display: none;
-    text-align: right;
-    font-size: 32px;
-    color: #FFFFFF;
-  }
+}
   header nav ul > li {
     list-style-type: none;
     display: inline-block;
@@ -119,6 +131,7 @@ html, body{
     padding:10px 15px;
     border:2px solid #FFFFFF;
     border-radius: 4px;
+    display: inline-table;
   }
   header nav ul > li.btn-outline:hover {
     background:#FFFFFF;
@@ -126,23 +139,51 @@ html, body{
   header nav ul > li > a {
     color:#FFFFFF;
     text-decoration: none;
+    display: inline-block;
   }
   header nav ul > li.btn-outline:hover > a {
     color:#34495E;
   }
+  .sign-in-links {
+    list-style: none;
+    display: flex;
+}
+  .sign-in-links li {
+  margin: 0 20px;
+  font-size: 80%;
+  display: inline-table;
+}
+.sign-in-links li:last-child {
+  margin-right: 0;
+}
+@media (min-width: 700px) {
+  .sign-in-links {
+    list-style: none;
+    display: flex;
+    max-height: 100%;
+  }
+}
+@media (min-width: 700px) {
+    .sign-in-links li {
+    margin: 0 20px;
+    max-height: 100%;
+  }
+}
+@media (min-width: 700px) {
+  .sign-in-links li:last-child {
+    margin-right: 0;
+    max-height: 100%;
+  }
+}
   header .hero {
    text-align: center;
    display:block;
    position: relative;
  }
-  header .site-logo img {
-    max-width: 50%;
-    max-height: auto;
-  }
-  @media (min-width: 720px) {
     header .site-logo img {
       max-width: 100%;
-      max-height: auto;
+      height: auto;
+      align-self: flex-start;
   }
  }
  header .hero h1 {
