@@ -667,7 +667,7 @@ html, body{
   background-color: #50E3C2;
 }
 .fa-th-large:before {
-  padding-right: 10px;
+  padding-right: 8px;
 }
  /* LEFT NAVBAR SETTINGS */
  .left-nav .settings {
@@ -701,7 +701,29 @@ html, body{
    margin-right:10px;
    margin-top:8px;
  }
-   }
+ .left-nav .settings .settings-menu a {
+   color:#FFFFFF;
+   text-decoration: none;
+   text-align: left;
+   float: left;
+   margin-left:30px;
+   margin-top:8px;
+ }
+ .left-nav .items .active {
+   margin-bottom: 10px;
+   margin-left: -3px;
+   padding: 5px;
+   display: inline-block;
+ }
+ .fa-gear:before, .fa-cog:before {
+   margin-left: -20px;
+ }
+.fa-group:before, .fa-users:before {
+   margin-left: -20px;
+ }
+ .fa-sign-out:before {
+   margin-left: -20px;
+ }
  /* CONTENT */
  .content {
   padding:6em 1% 1.5em;
