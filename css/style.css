@@ -154,7 +154,7 @@ html, body{
   display: inline-table;
 }
 .sign-in-links li:last-child {
-  margin-right: 0;
+  margin-right: 20;
 }
 @media (min-width: 700px) {
   .sign-in-links {
@@ -748,7 +748,7 @@ html, body{
   line-height: 44px;
   float: left;
   display: inline-block;
-  padding-left: 40px;
+  padding-left: 0px;
 }
 @media (min-width: 460px) {
 .content .header h1 {
